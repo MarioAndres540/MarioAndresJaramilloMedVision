@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MarioAndresJaramillo
+build_property.RootNamespace = MarioAndresJaramillo
+build_property.ProjectDir = C:\Users\Mario\Projects\ASP.NET CORE MVC\MarioAndresJaramillo\MarioAndresJaramillo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mario\Projects\ASP.NET CORE MVC\MarioAndresJaramillo\MarioAndresJaramillo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Personas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Personas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Personas/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Personas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Actualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEFjdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Detalles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXERldGFsbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEVsaW1pbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7yz77g91xh

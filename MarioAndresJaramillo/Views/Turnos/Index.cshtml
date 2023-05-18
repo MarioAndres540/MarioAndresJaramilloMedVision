@@ -1,0 +1,40 @@
+﻿@model List<Turno>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Lista de turnos</h2>
+
+
+<p>
+    <a asp-action="Crear">Crear Nuevo Turno</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Cédula</th>
+            <th>Fecha</th>
+            <th>Atendido</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var turno in Model)
+        {
+            <tr>
+                <td>@turno.Id</td>
+                <td>@turno.Cedula</td>
+                <td>@turno.Fecha</td>
+                <td>@(turno.Atendido ? "Sí" : "No")</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@turno.Id">Editar</a> |
+                    <a asp-action="Eliminar" asp-route-id="@turno.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,21 @@
+﻿@model MarioAndresJaramillo.Models.Turno
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h2>Detalles del turno</h2>
+
+<div>
+    <strong>Cédula:</strong> @Model.Cedula
+</div>
+<div>
+    <strong>Fecha:</strong> @Model.Fecha
+</div>
+<div>
+    <strong>Atendido:</strong> @(Model.Atendido ? "Sí" : "No")
+</div>
+
+
+<a href="@Url.Action(nameof(Index))">Volver</a>
+

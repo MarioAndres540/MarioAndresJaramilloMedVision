@@ -1,0 +1,28 @@
+﻿@model MarioAndresJaramillo.Models.Persona
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear Persona</h1>
+
+<form asp-action="Crear">
+    <div class="form-group">
+        <label asp-for="Cedula">Cedula</label>
+        <input asp-for="Cedula" class="form-control" />
+        <span asp-validation-for="Cedula" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nombre">Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Apellido">Apellido</label>
+        <input asp-for="Apellido" class="form-control" />
+        <span asp-validation-for="Apellido" class="text-danger"></span>
+    </div>
+    <!-- Agrega los demás campos y validaciones necesarios -->
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
