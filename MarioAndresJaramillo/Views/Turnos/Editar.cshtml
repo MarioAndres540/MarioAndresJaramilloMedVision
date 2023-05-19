@@ -1,0 +1,30 @@
+﻿@model MarioAndresJaramillo.Models.Turno
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h2>Actualizar turno</h2>
+
+<form  asp-action="Editar" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label>Cédula:</label>
+        <input class="form-control" asp-for="Cedula"  />
+    </div>
+
+    <div class="form-group">
+        <label>Fecha:</label>
+        <input class="form-control" asp-for="Fecha"  />
+    </div>
+
+    <div class="form-group mb-2">
+        <label>Atendido:</label>
+        <input type="text" class="form-control" placeholder="SI/NO" asp-for="Atendido" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Actualizar turno</button>
+</form>
+
+<a href="@Url.Action(nameof(Index))">Volver</a>

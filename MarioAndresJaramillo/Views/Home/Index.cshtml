@@ -5,3 +5,21 @@
 <div class="text-center">
     <h1 class="display-4">MedVision</h1>
 </div>
+<div class="row g-2 justify-content-evenly mt-3">
+    <div class="col-auto">
+        <form  asp-controller="Personas" asp-action="Index">
+            <p>
+                Buscar por Persona: <input type="text" name="buscar" class="form-text" placeholder="Nombre" />
+                <input type="submit" value="Search" class="btn btn-sm btn-dark" placeholder="Nombre" />
+            </p>
+        </form>
+   </div>
+    <div class="col-auto">
+        <form  asp-controller="Turnos" asp-action="Index">
+            <p>
+                Buscar Turno: <input type="text" name="buscar" class="form-text" placeholder="#Turno" />
+                <input type="submit" value="Search" class="btn btn-sm btn-dark" placeholder="Nombre" />
+            </p>
+        </form>
+  </div>
+</div>

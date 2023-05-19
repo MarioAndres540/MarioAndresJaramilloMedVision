@@ -48,16 +48,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Actualizar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEFjdHVhbGl6YXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Detalles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXERldGFsbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mario/Projects/ASP.NET CORE MVC/MarioAndresJaramillo/MarioAndresJaramillo/Views/Turnos/Eliminar.cshtml]

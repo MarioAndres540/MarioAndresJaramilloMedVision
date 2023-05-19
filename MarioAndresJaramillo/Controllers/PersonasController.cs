@@ -38,9 +38,9 @@ namespace MarioAndresJaramillo.Controllers
         }
 
         //creamos el metodo para editar por medio dela cedula
-        public IActionResult Editar(int Cedula)
+        public IActionResult Editar(int id)
         {
-            var persona = _context.Personas.Find(Cedula);
+            var persona = _context.Personas.Find(id);
             if (persona == null)
             {
                 return NotFound();
@@ -49,9 +49,9 @@ namespace MarioAndresJaramillo.Controllers
         }
 
         [HttpPost]
-        public IActionResult Editar(int Cedula, Persona persona)
+        public IActionResult Editar(int id, Persona persona)
         {
-            if (Cedula != persona.Cedula)
+            if (id != persona.Id)
             {
                 return NotFound();
             }
@@ -67,9 +67,9 @@ namespace MarioAndresJaramillo.Controllers
 
         //creamos el metodo Eliminar
 
-        public IActionResult Eliminar(int Cedula)
+        public IActionResult Eliminar(int id)
         {
-            var persona = _context.Personas.Find(Cedula);
+            var persona = _context.Personas.Find(id);
             if (persona == null)
             {
                 return NotFound();
@@ -78,9 +78,9 @@ namespace MarioAndresJaramillo.Controllers
         }
 
         [HttpPost, ActionName("Eliminar")]
-        public IActionResult ConfirmarEliminar(int Cedula)
+        public IActionResult ConfirmarEliminar(int id)
         {
-            var persona = _context.Personas.Find(Cedula);
+            var persona = _context.Personas.Find(id);
             if (persona == null)
             {
                 return NotFound();
